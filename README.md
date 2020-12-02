@@ -45,7 +45,7 @@ Official Pytorch based implementation.
 ### Ablation Experiments : 
 
 | Model - UNet | [DeepUPE](https://github.com/Jia-Research-Lab/DeepUPE) | [Retinex](https://daooshee.github.io/BMVC2018website) | [SICE](https://github.com/csjcai/SICE) |
-|--------|:----------:|:---------:|:---------:|:--------:|:------------:|:--------:|:--------:|
+|--------|:----------:|:---------:|:---------:|
 | [Vanilla]               |  [Trained_Model]         |  [Trained_Model]        |  [Trained_Model]        |
 |                         |  (PSNR / SSIM)           |  (PSNR / SSIM)          |  (PSNR / SSIM)          |  
 | [Cut_Blur]              |  [Trained_Model]         |  [Trained_Model]        |  [Trained_Model]        |
