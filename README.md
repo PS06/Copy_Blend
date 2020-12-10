@@ -1,5 +1,5 @@
 ## [STATUS - ACTIVE]
-## [GLDA] - Greedy Localized Data Augmentation for Image Enhancement in presence of Non Homogeneous Noise 
+## [ALDA] - Adaptive Localized Data Augmentation for Image Enhancement in presence of Non Homogeneous Noise 
 Official Pytorch based implementation.
 
 ### To-Do List  
