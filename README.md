@@ -1,6 +1,6 @@
 ## [STATUS - ACTIVE]
-## [CB] - EVALUATING COPY-BLEND AUGMENTATION FOR LOW LEVEL VISION TASKS
-Official Pytorch implementation.
+## [CB] - Evaluating Copy-Blend Augmentation for Low Level Vision Tasks
+Pytorch implementation.
 
 #
 ### To-Do List  
@@ -12,14 +12,21 @@ Official Pytorch implementation.
 
 #
 ### Different Augmentation Techniques 
-| ![Input](Images/IN.png)| ![Cut Mix](Images/cut_mix.png) | ![Cut Out](Images/cut_out.png)|![MixUp](Images/mix_up.png)| ![Cut Blur](Images/cut_blur.png) |![Copy Blend](Images/copy_blend.png) || ![Ground Truth](Images/GT.png) |  
+| ![Input](Images/IN.jpg)| ![Cut Mix](Images/cut_mix.jpg) | ![Cut Out](Images/cut_out.jpg)|![MixUp](Images/mix_up.jpg)| ![Cut Blur](Images/cut_blur.jpg) |![Copy Blend](Images/copy_blend.jpg) | ![Ground Truth](Images/GT.jpg) |  
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-
+|Input | Cut Mix | Cut Out | Mix Up | Cut Blur | Copy Blend | GT |
 
 #
-### Results 
-| ![](Images/msnet_in.png)| ![](Images/msnet.png) | ![](Images/dln_in.png)| ![](Images/dln.png) | ![](Images/deblurganv2_in.png)| ![](Images/deblurganv2.png) |
+### Some Results 
+| <img src="Images/msnet_in.jpg" width="100" height="100">| <img src="Images/msnet.jpg" width="100" height="100">| <img src="Images/dln_in.jpg" width="100" height="100">| <img src="Images/dln.jpg" width="100" height="100"> | <img src="Images/deblurganv2_in.jpg" width="100" height="100">| <img src="Images/deblurganv2.jpg" width="100" height="100">|
 |:---:|:---:|:---:|:---:|:---:|:---:|
+|9.75 / 0.41 / 5.45 | 15.04 / 0.42 / 4.17 | 9.96 / 0.18 / 5.35 | 28.67 / 0.86 / 3.48 | 24.05 / 0.71 / 5.05 | 38.97 / 0.98 / 3.01 |
+|Input Hazy Image | MSNet | Input LLIE Image | DLN | Input Blur Image | DeblurGANv2 |
+
+| <img src="Images/msnet_gt.jpg" width="100" height="100">| <img src="Images/msnet_cb.jpg" width="100" height="100"> | <img src="Images/dln_gt.jpg" width="100" height="100">| <img src="Images/dln_cb.jpg" width="100" height="100"> | <img src="Images/deblurganv2_gt.jpg" width="100" height="100">| <img src="Images/deblurganv2_cb.jpg" width="100" height="100"> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| - / - / 1.85 | 15.59 / 0.47 / 3.54 | - / - / 4.09 | 26.04 / 0.89 / 3.62 | - / - / 2.81 | 48.03 / 0.99 / 2.79 |
+| Output Image | MSNet + CB | Output Image | DLN + CB | Output Image | DeblurGANv2 + CB |
 
 #
 ### Dependencies and Installation
@@ -43,7 +50,7 @@ Official Pytorch implementation.
 | Model  | [Ntire-19](https://data.vision.ee.ethz.ch/cvl/ntire19//dense-haze/) | [Ntire-20](https://competitions.codalab.org/competitions/22236) | 
 |--------|:------------:|:------------:|
 | [MSNet]()        |  13.32 / 0.53 / 4.21 | 12.04 / 0.50 / 4.08 |
-| MSNet + CB()     |  14.71 / 0.58 / 3.87 | 13.97 / 0.57 / 3.77 | 
+| MSNet + CB       |  14.71 / 0.58 / 3.87 | 13.97 / 0.57 / 3.77 | 
 | [DIDH]()         |  15.71 / 0.54 / 4.71 | 14.71 / 0.45 / 5.34 |
 | DIDH + CB        |  17.18 / 0.62 / 3.47 | 18.16 / 0.69 / 3.28 |
 | [Dual_Res]()     |  PSNR / SSIM            |  PSNR / SSIM   | 
@@ -68,8 +75,8 @@ Official Pytorch implementation.
 | DeblurGANv2 + CB      | 29.91 / 0.93 / 3.07 | 31.26 / 0.92 / 3.19 |  
 | [DMPHN]()             | 30.21 / 0.93 / 2.64 | 29.71 / 0.93 / 2.76 |  
 | DMPHN + CB            | 30.21 / 0.94 / 2.73 | 31.18 / 0.94 / 2.50 |  
-| []()      |  |  
-|  + CB     |  |  
+| [asd]()      |  |  
+|  + CB        |  |  
 &nbsp;
 
 #
@@ -108,5 +115,13 @@ python eval_all.py
 ```
 #
 ### Citation
-
+If you use our work in your research, please cite our paper:
+```
+@article{,
+  title={Evaluating Copy-Blend Augmentation for Low Level Vision Tasks},
+  author={Shyam, Pranjay and Sengar, Sandeep Singh and Yoon, Kuk-Jin and Kim, Kyung-Soo},
+  journal={arXiv preprint arXiv:},
+  year={2021}
+}
+```
 
