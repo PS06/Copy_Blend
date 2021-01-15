@@ -12,22 +12,11 @@ Pytorch implementation.
 
 #
 ### Different Augmentation Techniques 
-| ![Input](Images/IN.jpg)| ![Cut Mix](Images/cut_mix.jpg) | ![Cut Out](Images/cut_out.jpg)|![MixUp](Images/mix_up.jpg)| ![Cut Blur](Images/cut_blur.jpg) |![Copy Blend](Images/copy_blend.jpg) | ![Ground Truth](Images/GT.jpg) |  
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Input | Cut Mix | Cut Out | Mix Up | Cut Blur | Copy Blend | GT |
+![](Images/fig2.png)
 
 #
 ### Some Results 
-| <img src="Images/msnet_in.jpg" width="100" height="100">| <img src="Images/msnet.jpg" width="100" height="100">| <img src="Images/dln_in.jpg" width="100" height="100">| <img src="Images/dln.jpg" width="100" height="100"> | <img src="Images/deblurganv2_in.jpg" width="100" height="100">| <img src="Images/deblurganv2.jpg" width="100" height="100">|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|9.75 / 0.41 / 5.45 | 15.04 / 0.42 / 4.17 | 9.96 / 0.18 / 5.35 | 28.67 / 0.86 / 3.48 | 24.05 / 0.71 / 5.05 | 38.97 / 0.98 / 3.01 |
-|Input Hazy Image | MSNet | Input LLIE Image | DLN | Input Blur Image | DeblurGANv2 |
-
-| <img src="Images/msnet_gt.jpg" width="100" height="100">| <img src="Images/msnet_cb.jpg" width="100" height="100"> | <img src="Images/dln_gt.jpg" width="100" height="100">| <img src="Images/dln_cb.jpg" width="100" height="100"> | <img src="Images/deblurganv2_gt.jpg" width="100" height="100">| <img src="Images/deblurganv2_cb.jpg" width="100" height="100"> |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| - / - / 1.85 | 15.59 / 0.47 / 3.54 | - / - / 4.09 | 26.04 / 0.89 / 3.62 | - / - / 2.81 | 48.03 / 0.99 / 2.79 |
-| Output Image | MSNet + CB | Output Image | DLN + CB | Output Image | DeblurGANv2 + CB |
-
+![](Images/fig3.png)
 #
 ### Dependencies and Installation
 
