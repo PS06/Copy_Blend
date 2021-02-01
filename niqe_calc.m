@@ -1,10 +1,5 @@
 function niqe_value = niqe(root_dir)
-    path_list = dir(strcat(root_dir, '*.png'));
-
-    if isempty(path_list) == 0
-        path_list = dir(strcat(root_dir, '*.png'));
-    end
-    
+    path_list = dir(strcat(root_dir, '*.png'));    
     img_num = length(path_list);
     niqe_value = 0;
     if img_num > 0 
