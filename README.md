@@ -17,7 +17,7 @@ Pytorch implementation.
 | Input | Cut Mix | Cut Out | Mix-Up | Cut Blur | Copy Blend | GT |
 
 
-# Results on Low Light Image Enhancement (PSNR / SSIM / NIQE)
+# Results for Low Light Image Enhancement (PSNR / SSIM / NIQE)
 
 | <img src="Images/Fig_3/IN_23.jpg" width="350" height="250" />| <img src="Images/Fig_3/dln_23.jpg" width="350" height="250"/>| <img src="Images/Fig_3/afnet_23.jpg" width="350" height="250"/>|
 |:---:|:---:|:---:|
@@ -25,14 +25,14 @@ Pytorch implementation.
 | <img src="Images/Fig_3/GT_23.jpg" width="350" height="250"/>| <img src="Images/Fig_3/dln_cb_23.jpg" width="350" height="250"/>| <img src="Images/Fig_3/afnet_cb_23.jpg" width="350" height="250"/>|
 | GT | DLN + CB (18.88 / 0.84 / 3.28) | AFNet + CB (23.38 / 0.89 / 3.18)|
 
-# Results on Image Dehazing (PSNR / SSIM / NIQE)
+# Results for Image Dehazing (PSNR / SSIM / NIQE)
 | <img src="Images/Fig_4/31_IN.jpg" width="350" height="250"/>| <img src="Images/Fig_4/31_msnet.jpg" width="350" height="250"/> | <img src="Images/Fig_4/31_didh.jpg" width="350" height="250"/> |
 |:---:|:---:|:---:|
 | Input (6.34 / 0.19 / 4.85) | MSNet (15.62 / 0.34 / 3.83) | DIDH (16.57 / 0.34 / 3.99) |
 | <img src="Images/Fig_4/31_GT.jpg" width="350" height="250"/>| <img src="Images/Fig_4/31_msnet_cb.jpg" width="350" height="250"/> | <img src="Images/Fig_4/31_didh_cb.jpg" width="350" height="250"/> |
 | GT | MSNet + CB (16.08 / 0.32 / 4.41) | DIDH + CB (16.56 / 0.34 / 3.98) |
 
-# Results on Image Deblurring (PSNR / SSIM / NIQE)
+# Results for Image Deblurring (PSNR / SSIM / NIQE)
 | <img src="Images/Fig_5/IN_000001.jpg" width="350" height="250"/>| <img src="Images/Fig_5/deblurganv2_000001.jpg" width="350" height="250"/> | <img src="Images/Fig_5/DMPHN_000001.jpg" width="350" height="250"/> |
 |:---:|:---:|:---:|
 | Input (25.01 / 0.80 / 3.83) | DeblurGANv2 (26.60 / 0.84 / 3.45) | DMPHN (25.75 / 0.82 / 3.73) |
@@ -57,8 +57,6 @@ Pytorch implementation.
 
 #
 ## MODEL ZOO - Checkpoints of Evaluated Networks on different datasets
-&nbsp;
-
 ### Task - Single Image Dehazing - [Trained Models]()
 | Model  | [Ntire-19](https://data.vision.ee.ethz.ch/cvl/ntire19//dense-haze/) | [Ntire-20](https://competitions.codalab.org/competitions/22236) | 
 |--------|:------------:|:------------:|
