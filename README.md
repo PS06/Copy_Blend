@@ -66,7 +66,7 @@ Pytorch implementation.
 | DIDH + CB    |  17.18 / 0.62 / 3.47 | 18.16 / 0.69 / 3.28 |
 
 ### Task - Low Light Image Enhancement - [Trained Models]()
-|  Model        |[Retinex](https://daooshee.github.io/BMVC2018website) | [SICE](https://github.com/csjcai/SICE) |
+|  Model        |[LOL](https://daooshee.github.io/BMVC2018website) | [SICE](https://github.com/csjcai/SICE) |
 |--------|:------------:|:------------:| 
 | DLN         | 21.34 / 0.82 / 3.05 | 16.44 / 0.60 / 2.32 |  
 | DLN + CB    | 21.47 / 0.84 / 2.84 | 16.51 / 0.62 / 2.37 |  
@@ -84,7 +84,7 @@ Pytorch implementation.
 #
 ### Performance Evaluation with Prior Local Region based Augmentations : 
 
-| Evalaution Dataset | Retinex | NTIRE-19 | GO PRO |
+| Evalaution Dataset | LOL | NTIRE-19 | GO PRO |
 |--------|:----------:|:----------:|:----------:|
 | Baseline       | 21.33 / 0.81 | 13.32 / 0.53 | 29.55 / 0.93 |
 | [Cut Mix]()    | 20.78 / 0.83 | 13.51 / 0.54 | 29.17 / 0.91 |
